@@ -12,21 +12,15 @@ var app = {
 
 				if (bylines.length > 0) {
 
-					console.log(bylines[0])
-
 					app.render(bylines[0])
 
 				}
 
 			} catch(error) {
 
-			  console.error(error);
+			  //console.error(error);
 
 			}
-
-	   	} else {
-
-	   		console.log("The Guardian is not defined")
 
 	   	}
 
